@@ -1,9 +1,10 @@
+<!-- File: next/index.html -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lume Compass Coaching</title>
+    <title>Lumen Compass Coaching</title>
     <meta name="description" content="Coaching for clarity and momentum." />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -14,7 +15,7 @@
         <a class="brand" href="#top">
           <div class="logo" aria-hidden="true">LC</div>
           <div class="brand-text">
-            <div class="brand-name">Lume Compass Coaching</div>
+            <div class="brand-name">Lumen Compass Coaching</div>
             <div class="brand-sub">Coaching for clarity and momentum</div>
           </div>
         </a>
@@ -37,6 +38,7 @@
     </a>
 
     <main id="top">
+      <!-- HERO -->
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-left">
@@ -68,27 +70,12 @@
             </div>
           </div>
 
+          <!-- RIGHT SIDE: PHOTO PLACEHOLDER -->
           <div class="hero-right">
-            <div class="card card-big">
-              <h2 class="card-title">What I help with</h2>
-              <ul class="bullets">
-                <li>Clarity under pressure and decision making</li>
-                <li>Career direction and transitions</li>
-                <li>Leadership communication and confidence</li>
-                <li>Overwhelm, stress, and burnout prevention</li>
-              </ul>
-
-              <div class="spacer"></div>
-
-              <div class="mini-grid">
-                <div class="mini">
-                  <div class="mini-title">Start simple</div>
-                  <div class="mini-text">A chemistry call to check fit and define what you want.</div>
-                </div>
-                <div class="mini">
-                  <div class="mini-title">Flexible</div>
-                  <div class="mini-text">We agree on next steps and pricing after the intro call.</div>
-                </div>
+            <div class="photo-card">
+              <img class="hero-photo" src="./assets/profile.jpg" alt="Your portrait" />
+              <div class="photo-caption">
+                Replace this placeholder with your photo. File path: <strong>next/assets/profile.jpg</strong>
               </div>
             </div>
           </div>
@@ -97,6 +84,7 @@
         <div class="hero-fade" aria-hidden="true"></div>
       </section>
 
+      <!-- ABOUT -->
       <section id="about" class="section">
         <div class="container two-col">
           <div>
@@ -115,31 +103,58 @@
             </div>
           </div>
 
-          <div class="card" id="how">
-            <h3 class="card-title">My coaching style</h3>
-            <div class="steps">
-              <div class="step">
-                <div class="step-n">1</div>
-                <div>
-                  <div class="step-title">Define the outcome</div>
-                  <div class="step-text">We get concrete about what should be different after the session.</div>
-                </div>
+          <div class="card">
+            <h3 class="card-title">Quick facts</h3>
+            <p class="card-text">
+              Add a short text here. For example: your background, language, coaching approach, or a short personal note.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS (NEW SECTION BETWEEN ABOUT AND ARTICLES) -->
+      <section id="how" class="section section-alt">
+        <div class="container two-col">
+          <!-- LEFT SIDE: MOVED "WHAT I HELP WITH" BOX -->
+          <div class="card card-big">
+            <h2 class="card-title">What I help with</h2>
+            <ul class="bullets">
+              <li>Clarity under pressure and decision making</li>
+              <li>Career direction and transitions</li>
+              <li>Leadership communication and confidence</li>
+              <li>Overwhelm, stress, and burnout prevention</li>
+            </ul>
+
+            <div class="spacer"></div>
+
+            <div class="mini-grid">
+              <div class="mini">
+                <div class="mini-title">Start simple</div>
+                <div class="mini-text">A chemistry call to check fit and define what you want.</div>
               </div>
-              <div class="step">
-                <div class="step-n">2</div>
-                <div>
-                  <div class="step-title">Find leverage points</div>
-                  <div class="step-text">We identify assumptions, patterns, and the real decision behind the noise.</div>
-                </div>
-              </div>
-              <div class="step">
-                <div class="step-n">3</div>
-                <div>
-                  <div class="step-title">Make it actionable</div>
-                  <div class="step-text">You leave with a next step that fits real life, not a fantasy schedule.</div>
-                </div>
+              <div class="mini">
+                <div class="mini-title">Flexible</div>
+                <div class="mini-text">We agree on next steps and pricing after the intro call.</div>
               </div>
             </div>
+          </div>
+
+          <!-- RIGHT SIDE: SPACE FOR YOUR TEXT -->
+          <div class="card">
+            <h3 class="card-title">How it works</h3>
+            <p class="card-text">
+              Add your explanation here. For example:
+              <br /><br />
+              1) Book a chemistry call
+              <br />
+              2) We clarify your goal and what success looks like
+              <br />
+              3) We agree on a plan and the next sessions
+              <br />
+              4) You leave each session with clear next steps
+            </p>
+
+            <div class="spacer"></div>
 
             <a class="btn-primary full" href="https://calendly.com/your-calendly/intro" target="_blank" rel="noreferrer">
               Book intro call
@@ -148,7 +163,8 @@
         </div>
       </section>
 
-      <section id="articles" class="section section-alt">
+      <!-- ARTICLES -->
+      <section id="articles" class="section">
         <div class="container">
           <div class="section-head">
             <h2 class="section-title">Articles</h2>
@@ -188,7 +204,8 @@
         </div>
       </section>
 
-      <section id="reviews" class="section">
+      <!-- REVIEWS -->
+      <section id="reviews" class="section section-alt">
         <div class="container">
           <div class="section-head">
             <h2 class="section-title">Reviews</h2>
@@ -226,7 +243,8 @@
         </div>
       </section>
 
-      <section id="contact" class="section section-alt">
+      <!-- CONTACT -->
+      <section id="contact" class="section">
         <div class="container">
           <h2 class="section-title">Contact</h2>
           <p class="section-text">Put your email here.</p>
@@ -234,7 +252,7 @@
           <div class="contact-card">
             <div class="contact-row">
               <span class="contact-label">Email</span>
-              <span class="contact-value">info@lumecompass.com</span>
+              <span class="contact-value">info@lumencompass.com</span>
             </div>
             <div class="contact-row">
               <span class="contact-label">Location</span>
@@ -254,7 +272,7 @@
     <footer class="footer">
       <div class="container footer-inner">
         <div>
-          <div class="footer-brand">Lume Compass Coaching</div>
+          <div class="footer-brand">Lumen Compass Coaching</div>
           <div class="footer-small">© <span id="year"></span></div>
         </div>
 
